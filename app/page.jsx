@@ -124,7 +124,7 @@ export default function Home() {
 							handleCards(index);
 						}}
 						style={cardsStyles[index]}>
-						<p className='number'>{index + 1}</p>
+						<p className='number'>{cardsInDeck}</p>
 						<h1 className='animal'>{cardsName[index]}</h1>
 						<p className='percentage'>{percentageMaker(cardsInDeck, deck)}%</p>
 					</div>
@@ -135,8 +135,8 @@ export default function Home() {
 						setCardsInDeck(cards);
 						setDeck(totalDeck);
 					}}>
-					<p className='number'>0</p>
-					<h1 className='animal'>Resetar</h1>
+					<p className='text-black'>0</p>
+					<h1 className='animal'>Reset</h1>
 					<p className='text-black'>0</p>
 				</div>
 			</div>
