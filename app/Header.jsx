@@ -5,7 +5,7 @@ function Header() {
 
 	return (
 		<header className='bg-white/[0.01] border-gray-900 py-3 text-center border-b'>
-			<h1 className='text-3xl'>Probabilidade de cartas para</h1>
+			<h1 className='text-2xl'>Probabilidade de cartas para</h1>
 			<h1 className='text-5xl'>
 				<span className='header' style={animation(0)}>
 					K
