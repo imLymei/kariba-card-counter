@@ -26,6 +26,6 @@ npm install
 npm run dev
 ```
 
-##### [Back to the top](https://github.com/imLymei/kariba-card-counte#Kariba-card-counter)
+##### [Back to the top](https://github.com/imLymei/kariba-card-counter#Kariba-card-counter)
 
 ###### Create by [Felipe Cardoso](https://lymei.art)
